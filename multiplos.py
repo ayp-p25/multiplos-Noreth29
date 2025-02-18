@@ -23,7 +23,7 @@ try:
 
     
     else:
-        resultado = "Error. Introduzca un número válido"
+        resultado = "El número " + str(numero2) + " es múltiplo del " + str(numero1)
 
 #except ZeroDivisionError :
  #   resultado ="Error. Introduzca un número válido"
