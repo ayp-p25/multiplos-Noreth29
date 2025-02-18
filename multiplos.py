@@ -9,7 +9,7 @@ try:
     numero1 = int(input("Introduzca un número "))
     numero2= int(input("Introduzca otro número "))
 
-    if numero1 != 0 :
+    if numero2 != 0 :
        
 # Proceso
         if numero1 % numero2 == 0:
@@ -25,8 +25,8 @@ try:
     else:
         resultado = "Error. Introduzca un número válido"
 
-except ZeroDivisionError :
-    resultado ="Error. Introduzca un número válido"
+#except ZeroDivisionError :
+ #   resultado ="Error. Introduzca un número válido"
 
 except ValueError :
     resultado = "Error. Introduzca otro valor."
